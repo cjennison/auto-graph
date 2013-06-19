@@ -24,6 +24,7 @@
       "series": [
           {
             "directory":"data/",
+            "enabled":true,
             "csvfilename":"minmax_temp_historic.csv",
             "ycolumn":"min_monthly_temp",
             "serieslab":"Historic Minimum Monthly",
@@ -33,6 +34,7 @@
           },
           {
             "directory":"data/",
+            "enabled":true,
             "csvfilename":"minmax_temp_historic.csv",
             "ycolumn":"max_monthly_temp",
             "serieslab":"Historic Maximum Monthly",
@@ -42,6 +44,7 @@
           },
           {
             "directory":"data/",
+            "enabled":true,
             "csvfilename":"minmax_temp_modeled.csv",
             "ycolumn":"min_monthly_temp",
             "serieslab":"Stochastic Future Minimum Monthly",
@@ -51,6 +54,7 @@
           },
           {
             "directory":"data/",
+            "enabled":true,
             "csvfilename":"minmax_temp_modeled.csv",
             "ycolumn":"max_monthly_temp",
             "serieslab":"Stochastic Future Maximum Monthly",
@@ -90,6 +94,7 @@
             "directory":"data/",
           "csvfilename":"annual_precip_historic.csv",
           "ycolumn":"annual_precip",
+            "enabled":true,
           "serieslab":"Historic",
           "color":"blue",
           "symbol":"hollowcircle",
@@ -97,6 +102,7 @@
         },
         {
             "directory":"data/",
+            "enabled":true,
           "csvfilename":"annual_precip_modeled.csv",
           "ycolumn":"annual_precip",
           "serieslab":"Stochastic Future",
