@@ -28,8 +28,9 @@
             "csvfilename":"minmax_temp_historic.csv",
             "ycolumn":"min_monthly_temp",
             "serieslab":"Historic Minimum Monthly",
-            "color":"blue",
-            "symbol":"hollowdiamond",
+             "color":null,
+            "stroke":"blue",
+            "symbol":"diamond",
             "symbolsize":6 
           },
           {
@@ -38,8 +39,9 @@
             "csvfilename":"minmax_temp_historic.csv",
             "ycolumn":"max_monthly_temp",
             "serieslab":"Historic Maximum Monthly",
-            "color":"red",
-            "symbol":"hollowdiamond",
+            "color":null,
+            "stroke":"red",
+            "symbol":"diamond",
             "symbolsize":6
           },
           {
@@ -48,7 +50,8 @@
             "csvfilename":"minmax_temp_modeled.csv",
             "ycolumn":"min_monthly_temp",
             "serieslab":"Stochastic Future Minimum Monthly",
-            "color":"steelgrey",
+            "color":"steelgray",
+            "stroke":null,
             "symbol":"diamond",
             "symbolsize":6
           },
@@ -59,6 +62,7 @@
             "ycolumn":"max_monthly_temp",
             "serieslab":"Stochastic Future Maximum Monthly",
             "color":"pink",
+            "stroke":null,
             "symbol":"diamond",
             "symbolsize":6 
           }
@@ -96,7 +100,8 @@
           "ycolumn":"annual_precip",
             "enabled":true,
           "serieslab":"Historic",
-          "color":"blue",
+           "color":null,
+            "stroke":null,
           "symbol":"hollowcircle",
           "symbolsize":6
         },
@@ -106,7 +111,8 @@
           "csvfilename":"annual_precip_modeled.csv",
           "ycolumn":"annual_precip",
           "serieslab":"Stochastic Future",
-          "color":"green",
+           "color":"green",
+            "stroke":null,
           "symbol":"circle",
           "symbolsize":6
         }

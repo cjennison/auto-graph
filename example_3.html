@@ -11,7 +11,7 @@
 		<!-- AUTOGRAPH -->
 		<script type="text/javascript" src="lib/auto-graph.js"> </script>		
 		<script type="text/javascript" src="lib/graphs/scatterplot.js"> </script>		
-		
+		<script type="text/javascript" src="lib/graphs/histogram.js"> </script>		
 		<style>
 			div.bar {
 				-o-transition: all .3s ease-out;
@@ -138,10 +138,9 @@
 	<script>
 	var _dir = "data";
 	$(function(){
-		var url="config/graph.json",
-			domain='config/minmax_temp.json';
+		var url="config/bar.json";
 		
-		AutoGraph.initialize(url, domain);
+		AutoGraph.initialize(url, null);
 	});
 		
 			
