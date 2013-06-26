@@ -1,9 +1,5 @@
 {
   "graphTypes": [
-    
-    
-    
-    
     {
       "graphType":"minmax_temp",
       "graphClass": "scatterplot",

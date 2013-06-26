@@ -138,10 +138,9 @@
 	<script>
 	var _dir = "data";
 	$(function(){
-		var url="config/graph.json",
-			domain='config/minmax_temp.json';
+		var url="config/graph.json";
 		
-		AutoGraph.initialize(url, domain);
+		AutoGraph.initialize(url, true, ['#graph1', '#graph2']);
 	});
 		
 			
@@ -153,7 +152,8 @@
 	
 	<div id="container"></div>
 		
-	
+	<div id="graph1"></div>
+	<div id="graph2"></div>
 		
 	</body>
 </html>

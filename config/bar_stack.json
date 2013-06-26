@@ -24,7 +24,14 @@
             "ycolumn":"zero_autumn_par_2079",
             "xcolumn":"count",
             "serieslab":"Zero Autumn",
-            "color":"red"
+            "color":"red",
+            "types": [
+            	"Open Water",
+            	"Developed",
+            	"Agriculture",
+            	"Shrub and Grassland",
+            	"Forested"
+            ]
            
           }
       ]

@@ -159,7 +159,7 @@
 	$(function(){
 		var url="config/bar_stack.json";
 		
-		AutoGraph.initialize(url, null);
+		AutoGraph.initialize(url, true, ['#graph1', '#graph2']);
 	});
 		
 			
@@ -174,7 +174,8 @@
 </form>
 	<div id="container"></div>
 		
-	
+	<div id="graph1"></div>
+	<div id="graph2"></div>
 		
 	</body>
 </html>
