@@ -1,5 +1,9 @@
 {
   "graphTypes": [
+    
+    
+    
+    
     {
       "graphType":"minmax_temp",
       "graphClass": "scatterplot",
@@ -97,7 +101,7 @@
             "enabled":true,
           "serieslab":"Historic",
            "color":null,
-            "stroke":null,
+            "stroke":"blue",
           "symbol":"hollowcircle",
           "symbolsize":6
         },

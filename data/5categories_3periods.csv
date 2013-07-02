@@ -1,6 +1,4 @@
-Date,2010,2030,2080
-Open Water,0.04,0.04,0.04
-Developed,0.12,0.2,0.25
-Agriculture,0.07,0.05,0.05
-Shrub and Grassland,0.02,0.01,0.01
-Forested,0.75,0.7,0.65
+year,Open Water,Developed,Agriculture,Shrub and Grassland,Forested
+2010,0.04,0.12,0.07,0.02,0.75
+2030,0.04,0.2,0.05,0.01,0.7
+2040,0.04,0.25,0.05,0.01,0.65
